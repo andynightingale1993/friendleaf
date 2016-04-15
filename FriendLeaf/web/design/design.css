@@ -1,0 +1,171 @@
+/*
+CSS que aplica el diseño a las páginas web.
+*/
+/* 
+    Created on : 04-nov-2015, 10:17:40
+    Author     : andrew
+*/
+body {
+    color: #0b300b;
+    /*font-weight: bold;*/
+    font-family: "Verdana";
+    font-size: 100%;
+    background-image: url("../images/tree-landscape.jpg");
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+#cuerpo {
+    display: flex;
+}
+
+header {
+    background-color: darkgreen;
+    width: 100%;
+    height: 20%;
+    margin: 5px;
+}
+
+
+textarea {
+    color: darkgreen;
+}
+
+.rojo {
+    color: red;
+}
+
+.correcto {
+    color: green;    
+}
+
+a, #boton, #botonreset {
+    text-decoration: none;
+    color: white;
+    border-width: 3px;
+    border-style: outset;
+    border-color: white;
+    border-radius: 7px; 
+    background-color: darkgreen;
+    padding: 2px;
+    margin: 1px;
+    font-size: 14px;
+
+    transition-duration: .9s;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .9s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-duration: .9s;
+    -moz-transition-timing-function: ease;
+    -ms-transition-duration: .9s;
+    -ms-transition-timing-function: ease;
+}
+
+a.imagen, img.imagen {
+    text-decoration: none;
+    border: none;
+    background: none;
+    
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-duration: .5s;
+    -moz-transition-timing-function: ease;
+    -ms-transition-duration: .5s;
+    -ms-transition-timing-function: ease;
+}
+
+a.imagen:hover, img.imagen:hover {
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+    filter: brightness(40%);
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-duration: .5s;
+    -moz-transition-timing-function: ease;
+    -ms-transition-duration: .5s;
+    -ms-transition-timing-function: ease;
+}
+
+a:hover, #boton:hover, #botonreset:hover {
+    background-color: white;
+    color: darkgreen;
+    border-color: darkgreen;
+    cursor: pointer;
+    
+    transition-duration: .9s;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .9s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-duration: .9s;
+    -moz-transition-timing-function: ease;
+    -ms-transition-duration: .9s;
+    -ms-transition-timing-function: ease;
+}
+
+a.imagen:hover {
+    background: none;
+}
+
+a.enlace {
+    text-decoration: underline;
+    background: none;
+    border: none;
+    color: darkblue;
+}
+#selected {
+    background-color: white;
+    color: darkgreen;
+    border: 3px inset white;
+}
+
+fieldset {
+    border: 5px groove darkgreen;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: rgba(204, 229, 255, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.cajatexto {
+    border: 2px inset darkgreen;
+}
+
+legend, legend a {
+    font-size: 130%;
+    font-weight: bold;
+}
+
+article {
+    width: 70%;
+}
+aside {
+    text-align: left;
+}
+aside iframe {
+    height: 1200px;
+    width: 100%;
+}
+
+input, textarea {
+    background-color: transparent;
+    color: black;
+}
+
+div.contenedor-imagen {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
