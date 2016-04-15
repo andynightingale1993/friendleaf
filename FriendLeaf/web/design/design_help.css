@@ -1,0 +1,131 @@
+/*
+CSS que aplica el diseño a las páginas web.
+*/
+/* 
+    Created on : 04-nov-2015, 10:17:40
+    Author     : andrew
+*/
+body {
+    color: white;
+    /*font-weight: bold;*/
+    font-family: "Verdana";
+    font-size: 100%;
+    background-image: url("../images/aurora-borealis.jpg");
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+#cuerpo {
+    display: flex;
+}
+
+header {
+    background-color: forestgreen;
+    width: 100%;
+    height: 20%;
+    margin: 5px;
+}
+
+textarea {
+    color: forestgreen;
+}
+
+.rojo {
+    color: red;
+}
+
+.correcto {
+    color: green;    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-width: 3px;
+    border-style: outset;
+    border-color: white;
+    border-radius: 7px; 
+    background-color: darkgreen;
+    padding: 2px;
+    margin: 1px;
+    font-size: 14px;
+
+    transition-duration: .9s;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .9s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-duration: .9s;
+    -moz-transition-timing-function: ease;
+    -ms-transition-duration: .9s;
+    -ms-transition-timing-function: ease;
+}
+
+a.imagen {
+    text-decoration: none;
+    border: none;
+}
+
+a.imagen:hover {
+    background-color: forestgreen;
+    border: none;
+}
+a:hover {
+    background-color: white;
+    color: darkgreen;
+    border-color: darkgreen;
+    cursor: pointer;
+    
+    transition-duration: .9s;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .9s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-duration: .9s;
+    -moz-transition-timing-function: ease;
+    -ms-transition-duration: .9s;
+    -ms-transition-timing-function: ease;
+}
+
+#selected {
+    background-color: white;
+    color: darkgreen;
+    border: 3px inset white;
+}
+
+fieldset {
+    border: 5px groove forestgreen;
+    margin: 5px;
+    background-color: rgba(204, 229, 255, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+article {
+    width: 100%;
+
+}
+aside {
+    text-align: left;
+}
+aside iframe {
+    height: 1200px;
+    width: 100%;
+}
+
+ul, ol {
+    text-align: left;
+}
+
+a.enlace {
+    background-color: transparent;
+    color: blue;
+    border: none;
+}
+
+a.enlace:hover {
+    text-decoration: underline;
+}
